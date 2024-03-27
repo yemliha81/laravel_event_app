@@ -22,7 +22,6 @@
         <div class="card">
             <div class="card-body text-center">
                 <div class="mb-4">
-                    <img class="brand" src="{{asset('admin-template')}}/assets/img/bootstraper-logo.png" alt="bootstraper logo">
                 </div>
                 <h6 class="mb-4 text-muted">Login to your account</h6>
                 <form action="{{route('loginPost')}}" method="POST">
@@ -37,7 +36,6 @@
                     </div>
                     <button class="btn btn-primary shadow-2 mb-4">Login</button>
                 </form>
-                <p class="mb-0 text-muted">Don't have account yet? <a href="signup.html">Signup</a></p>
             </div>
         </div>
     </div>
